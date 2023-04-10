@@ -8,109 +8,104 @@
 	<title>Listtest</title>
 </head>
 <body>
-	<ul class="tree" id="tree">
-      <li class="list"> 
-        <span>Тварини</span>
-        <button>#</button>
-        <ul>
-          <li> <span>Ссавці</span>
-            <ul>
-              <li><span>Корови</span>
-                <ul>
-                  <li><span>Теля</span>
-                    <button>x</button>
-                  </li>
-                </ul>
-              </li>
-              <li><span>Осли</span>
-                <ul>
-                  <li><span>Ослик</span>
-                    <button>x</button>
-                  </li>
-                </ul>
-              </li>
-              <li><span>Собаки</span>
-                <ul>
-                  <li><span>Собака дика</span>
-                    <button>x</button>
-                  </li>
-                </ul>
-              </li>
-              <li><span>Тигри</span>
-                <ul>
-                  <li><span>Киць-киць-киць-киця</span>
-                    <button>x</button>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-           </li>
-          <li><span>Інші</span>
-            <ul>
-              <li><span>Змії</span>
-                <ul>
-                  <li><span>Пітон</span>
-                    <button>x</button>
-                  </li>
-                </ul></li>
-              <li><span>Птахи</span>
-                <ul>
-                  <li><span>Сорока</span>
-                    <button>x</button>
-                  </li>
-                </ul>
-                <ul>
-                  <li><span>Ворон</span>
-                    <button>x</button>
-                  </li>
-                </ul>
-              </li>
-              <li><span>Ящірки</span>
-                <ul>
-                  <li><span>Саламандра</span>
-                    <button>x</button>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li class="list"><span>Риби</span>
-        <button>#</button>
-        <ul>
-          <li><span>Акваріумні</span>
-            <ul>
-              <li><span>Гуппі</span>
-                <ul>
-                  <li><span>Ноунейм</span>
-                    <button>x</button>
-                  </li>
-                </ul>
-              </li>
-              <li><span>Риба-янгол</span>
-                <ul>
-                  <li><span>Риба-Мало-вам-не-здасться</span>
-                    <button>x</button>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><span>Морські</span>
-            <ul>
-              <li><span>Морська форель</span>
-                <ul>
-                  <li><span>Річкова акварель</span>
-                    <button>x</button>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul> 
+  <ul class="tree" id="tree">
+    <li class="list"> 
+      <span>Тварини</span>
+      <button>#</button>
+      <ul class="sublist" id ="sublist" hidden>
+        <li><span>Ссавці</span>
+          <ul class="sub__sublist" hidden>
+            <li><span>Корови</span>
+              <ul class="sub-sub__sublist" hidden>
+                <li><span>Теля</span>
+                  <button>x</button>
+                </li>
+              </ul>
+            </li>
+            <li><span>Осли</span>
+              <ul class="sub-sub__sublist" hidden>
+                <li><span>Ослик</span>
+                  <button>x</button>
+                </li>
+              </ul>
+            </li>
+            <li><span>Собаки</span>
+              <ul class="sub-sub__sublist" hidden>
+                <li><span>Собака дика</span>
+                  <button>x</button>
+                </li>
+              </ul>
+            </li>
+            <li><span>Тигри</span>
+              <ul class="sub-sub__sublist" hidden>
+                <li><span>Киць-киць-киць-киця</span>
+                  <button>x</button>
+                </li>
+              </ul>
+            </li>
+          </ul>
+         </li>
+        <li><span>Інші</span>
+          <ul class="sub__sublist" hidden>
+            <li><span>Змії</span>
+              <ul class="sub-sub__sublist" hidden>
+                <li><span>Пітон</span>
+                  <button>x</button>
+                </li>
+              </ul></li>
+            <li><span>Птахи</span>
+              <ul class="sub-sub__sublist" hidden>
+                <li><span>Сорока</span>
+                  <button>x</button>
+                </li>
+              </ul>
+            </li>
+            <li><span>Ящірки</span>
+              <ul class="sub-sub__sublist" hidden>
+                <li><span>Саламандра</span>
+                  <button>x</button>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li class="list"><span>Риби</span>
+      <button>#</button>
+      <ul class="sublist" id="sublist" hidden>
+        <li><span>Акваріумні</span>
+          <ul class="sub__sublist" hidden>
+            <li><span>Гуппі</span>
+              <ul class="sub-sub__sublist" hidden>
+                <li><span>Ноунейм</span>
+                  <button>x</button>
+                </li>
+              </ul>
+            </li>
+            <li><span>Риба-янгол</span>
+              <ul class="sub-sub__sublist" hidden>
+                <li><span>Риба-Мало-вам-не-здасться</span>
+                  <button>x</button>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><span>Морські</span>
+          <ul class="sub__sublist" hidden>
+            <li><span>Морська форель</span>
+              <ul class="sub-sub__sublist" hidden>
+                <li><span>Річкова акварель</span>
+                  <button>x</button>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul> 
 	
 	 <script src="./index.js"></script>
 </body>
